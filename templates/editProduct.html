@@ -1,0 +1,37 @@
+<div class="modal-header bg-info">
+    <h4>Edit Product</h4>
+</div>
+<div class="modal-body">
+    <form class="well" ng-submit="updateProduct()">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" ng-model="selectedProduct.name">
+        </div>
+        <div class="form-group">
+            <label>Section</label> <br>
+            <select class="form-control" ng-model="selectedProduct.section">
+                <option value="general">General</option>
+                <option value="kitchen">Kitchen</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Describtion</label>
+            <input type="text" class="form-control" ng-model="selectedProduct.descr">
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input type="number" class="form-control" ng-model="selectedProduct.price">
+        </div>
+        <div class="form-group">
+            <label>Quantity</label>
+            <input type="number" class="form-control" ng-model="selectedProduct.qty">
+        </div>
+        <div class="form-group">
+            <label>Image</label>
+            <input type="file" mds-file file="selectedProduct.img" base64="y">
+            <img src="{{y?y:selectedProduct.img}}" style="width:300px;height: 170px"><br>
+        </div>
+        
+        <button class="btn btn-success">Update</button>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+<form class="well" ng-submit="addProduct()">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" ng-model="name">
+    </div>
+    <div class="form-group">
+        <label>Section</label> <br>
+        <select class="form-control" ng-model="section">
+            <option value="general">General</option>
+            <option value="kitchen">Kitchen</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Describtion</label>
+        <input type="text" class="form-control" ng-model="descr">
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input type="number" class="form-control" ng-model="price">
+    </div>
+    <div class="form-group">
+        <label>Quantity</label>
+        <input type="number" class="form-control" ng-model="qty">
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" mds-file file="img" base64="y">
+    </div>
+    <img ng-src="{{y}}" style="width:300px;height: 170px"><br>
+    <button class="btn btn-success">Insert</button>
+</form>

@@ -1,0 +1,83 @@
+/* home */
+.h {
+    margin-top: 15%;
+    font-size: 65px;
+    color:black;
+    text-align: center;
+}
+.h span {
+    color: dimgrey;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lead{
+    text-align: center;
+    color: dimgrey;
+    font-weight: bold;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lead span {
+    color: dimgrey;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 30px;
+}
+.navbar-nav {
+    float: right;
+    margin-right: 30px;
+    
+}
+.nav>li>a {
+    color:white;
+    font-weight: bold;
+}
+.nav>li>a:hover {
+    background-color: dimgray;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: dimgray;
+}
+
+/* .btn{
+    font-size: larger;
+} */
+
+/* store */
+
+
+.nav-tabs {
+    margin-top: 60px;
+}
+.nav>li>a {
+    color:gray;
+}
+.nav>li>a:hover {
+    color:white;
+}
+
+img {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:150px;
+    height: 124px;
+    border-radius: 5px;
+}
+.table-bordered {
+    margin-top: 100px;
+}
+
+
+
+
+

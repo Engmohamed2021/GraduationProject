@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="product in products">
+        <div class="product thumbnail">
+            <img ng-src="{{product.img}}" style="width:100%;height: 200px">
+            <div class="caption bg-info">
+                <span style="font-weight:bold;">{{product.name}}</span> <span class="label label-primary pull-right">{{product.price}} SDG</span><br>
+                <p>Describtion: {{product.descr}}</p>
+                <span>Quantity: {{product.qty}}</span><br>
+                <h5>Section: {{product.section}}</h5>
+                <button class="btn btn-danger" ng-click="delProduct(product.id,$index)">Delete</button>
+                <button class="btn btn-info" ng-click="PreEditProduct(product)">Edit</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
